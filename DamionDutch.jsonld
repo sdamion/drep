@@ -55,14 +55,14 @@
   "body": {
     "doNotList": false,
     "givenName": "DamionDutch",
-    "motivations": "I’m a freelancer in the IT space and can be a bridge between devs and degens. I’m motivated because not everybody in the community believes governance will change the old Cardano ways and I hope I can change there minds. I believe in having a vote will help make a change. ",
-    "objectives": "As a Cardano community member with ears to part of the community on X. I want to make a difference for me and my community. Not by talking and complaining about stuff but also acting upon what we talk about.",
+    "motivations": "As a Cardano community member with ears to part of the community on X. I want to make a difference for me and my community. Not by talking and complaining about stuff but also acting upon what we talk about.",
+    "objectives": "I’m a freelancer in the IT space and can be a bridge between devs and degens. I’m motivated because not everybody in the community believes governance will change the old Cardano ways and I hope I can change there minds. I believe in having a vote will help make a change.",
     "paymentAddress": "addr1qxmwedpnmh76mkxa9y86mdaqgdvgv24jdq89x4kd7hhcprya9qy3wd9d4acz982sauru8jvmsm90ek7eq87483q8j99qs4zsas",
-    "qualifications": "Human;\nCommunity Member;\n",
+    "qualifications": "Human, Community Member",
     "references": [
       {
         "@type": "Link",
-        "label": "X.com",
+        "label": "x.com",
         "uri": "https://x.com/DamionDutch"
       },
       {
