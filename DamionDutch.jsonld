@@ -63,8 +63,8 @@
     "givenName": "DamionDutch",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "",
-      "sha256": "e3c99190cda86ac0bfc0adee9027555653aa91a7836b9f1c058cb2dd136c2a61"
+      "contentUrl": "https://raw.githubusercontent.com/sdamion/drep/refs/heads/main/stakepool_ico.png",
+      "sha256": "cd5b3fc96afaa204609e264d212c189678b9a8b0888725206f7e1b6f3e80b299"
     },
     "motivations": "As a Cardano community member with ears to part of the community on X. I want to make a difference for me and my community. Not by talking and complaining about stuff but also acting upon what we talk about.",
     "objectives": "I’m a freelancer in the IT space and can be a bridge between devs and degens. I’m motivated because not everybody in the community believes governance will change the old Cardano ways and I hope I can change there minds. I believe in having a vote will help make a change.",
