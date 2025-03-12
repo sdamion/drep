@@ -1,6 +1,5 @@
 {
   "@context": {
-    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -28,14 +27,7 @@
         },
         "paymentAddress": "CIP119:paymentAddress",
         "givenName": "CIP119:givenName",
-        "image": {
-          "@id": "CIP119:image",
-          "@context": {
-            "ImageObject": "https://schema.org/ImageObject",
-            "contentUrl": "CIP119:contentUrl",
-            "sha256": "CIP119:sha256"
-          }
-        },
+        "image": "CIP119:image",
         "objectives": "CIP119:objectives",
         "motivations": "CIP119:motivations",
         "qualifications": "CIP119:qualifications",
@@ -58,18 +50,15 @@
       }
     }
   },
+  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
+    "doNotList": false,
     "givenName": "DamionDutch",
-    "image": {
-      "@type": "ImageObject",
-      "contentUrl": "https://raw.githubusercontent.com/sdamion/drep/refs/heads/main/stakepool_ico.png",
-      "sha256": "cd5b3fc96afaa204609e264d212c189678b9a8b0888725206f7e1b6f3e80b299"
-    },
-    "motivations": "As a Cardano community member with ears to part of the community on X. I want to make a difference for me and my community. Not by talking and complaining about stuff but also acting upon what we talk about.",
-    "objectives": "I’m a freelancer in the IT space and can be a bridge between devs and degens. I’m motivated because not everybody in the community believes governance will change the old Cardano ways and I hope I can change there minds. I believe in having a vote will help make a change.",
+    "motivations": "I’m a freelancer in the IT space and can be a bridge between devs and degens. I’m motivated because not everybody in the community believes governance will change the old Cardano ways and I hope I can change there minds. I believe in having a vote will help make a change. ",
+    "objectives": "As a Cardano community member with ears to part of the community on X. I want to make a difference for me and my community. Not by talking and complaining about stuff but also acting upon what we talk about.",
     "paymentAddress": "addr1qxmwedpnmh76mkxa9y86mdaqgdvgv24jdq89x4kd7hhcprya9qy3wd9d4acz982sauru8jvmsm90ek7eq87483q8j99qs4zsas",
-    "qualifications": "Human, Community Member",
+    "qualifications": "Human;\nCommunity Member;\n",
     "references": [
       {
         "@type": "Link",
@@ -77,19 +66,9 @@
         "uri": "https://x.com/DamionDutch"
       },
       {
-        "@type": "Link",
-        "label": "The Dutch Stake Pool [TDSP]",
-        "uri": "https://www.thedutchstakepool.com"
-      },
-      {
         "@type": "Identity",
-        "label": "Join a space on X where i am a speaker and ask your questions.",
+        "label": "Join a space on X where i am speaker and ask a question",
         "uri": "https://x.com/DamionDutch"
-      },
-      {
-        "@type": "Identity",
-        "label": "Linkedin",
-        "uri": "https://www.linkedin.com/in/damionseedorf"
       }
     ]
   }
