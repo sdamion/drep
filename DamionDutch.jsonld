@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -27,7 +28,14 @@
         },
         "paymentAddress": "CIP119:paymentAddress",
         "givenName": "CIP119:givenName",
-        "image": "CIP119:image",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
         "objectives": "CIP119:objectives",
         "motivations": "CIP119:motivations",
         "qualifications": "CIP119:qualifications",
@@ -50,11 +58,14 @@
       }
     }
   },
-  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "doNotList": false,
     "givenName": "DamionDutch",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "",
+      "sha256": "e3c99190cda86ac0bfc0adee9027555653aa91a7836b9f1c058cb2dd136c2a61"
+    },
     "motivations": "I’m a freelancer in the IT space and can be a bridge between devs and degens. I’m motivated because not everybody in the community believes governance will change the old Cardano ways and I hope I can change there minds. I believe in having a vote will help make a change. ",
     "objectives": "As a Cardano community member with ears to part of the community on X. I want to make a difference for me and my community. Not by talking and complaining about stuff but also acting upon what we talk about.",
     "paymentAddress": "addr1qxmwedpnmh76mkxa9y86mdaqgdvgv24jdq89x4kd7hhcprya9qy3wd9d4acz982sauru8jvmsm90ek7eq87483q8j99qs4zsas",
