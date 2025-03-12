@@ -60,7 +60,7 @@
   },
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "givenName": "DamioDutch",
+    "givenName": "DamionDutch",
     "image": {
       "@type": "ImageObject",
       "contentUrl": "https://www.thedutchstakepool.com/tdsp_logo.webp",
